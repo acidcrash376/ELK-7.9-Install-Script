@@ -5,7 +5,7 @@ This is a shell script to automate the install of Elasticsearch, Logstash and Ki
 
 # Usage
 Due to the need to add new repo's, install packages and configure system services; sudo access is required. 
-sudo ./elk_7-9.sh 
+<addr>sudo ./elk_7-9.sh 
 That's it, no parameters required. It's to be run locally and will auto-input your hostname and IP into the config's where required. I have not tested it in an environment with multiple interfaces and IP's so if you use it in such an environment I suggest you ammend the variable defined at the beginning. 
 
 # Notes
